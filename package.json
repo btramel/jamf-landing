@@ -1,0 +1,24 @@
+{
+  "name": "jamf-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btramel/jamf-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btramel/jamf-landing/issues"
+  },
+  "homepage": "https://github.com/btramel/jamf-landing#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
