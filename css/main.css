@@ -702,6 +702,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-headerGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 232 236 / var(--tw-bg-opacity));
+}
+
 .bg-veryLightGray {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
@@ -710,11 +715,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-footerGray {
   --tw-bg-opacity: 1;
   background-color: rgb(55 58 64 / var(--tw-bg-opacity));
-}
-
-.bg-headerGray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 232 236 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -899,11 +899,6 @@ body {
 .hover\:bg-brightButtonBlue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(119 183 247 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-footerGray:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 58 64 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-headerGray:hover {
