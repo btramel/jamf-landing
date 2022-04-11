@@ -563,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -688,9 +692,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-left-radius: 9999px;
 }
 
-.bg-brightRed {
+.bg-buttonBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
+  background-color: rgb(62 151 252 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -698,19 +702,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-brightRedSupLight {
-  --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
-}
-
 .bg-veryLightGray {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
 }
 
-.bg-veryDarkBlue {
+.bg-footerGray {
   --tw-bg-opacity: 1;
-  background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
+  background-color: rgb(55 58 64 / var(--tw-bg-opacity));
+}
+
+.bg-headerGray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 232 236 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -807,9 +811,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(227 12% 61% / var(--tw-text-opacity));
 }
 
-.text-brightRed {
+.text-buttonBlue {
   --tw-text-opacity: 1;
-  color: hsl(12 88% 59% / var(--tw-text-opacity));
+  color: rgb(62 151 252 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -892,14 +896,29 @@ body {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-.hover\:bg-brightRedLight:hover {
+.hover\:bg-brightButtonBlue:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
+  background-color: rgb(119 183 247 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-footerGray:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 58 64 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-headerGray:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 232 236 / var(--tw-bg-opacity));
 }
 
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
+}
+
+.hover\:text-buttonBlue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(62 151 252 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
